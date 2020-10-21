@@ -4,10 +4,19 @@ class Employee {
         this.name = name;
         this.id = id;
         this.email = email;
-        getname()
-        getid()
-        getemail()
-        getrole()
     }
+        getname(){
+
+        }
+        getid(){
+
+        }
+        getemail(){
+
+        }
+        getrole(){
+            
+        }
+    
 }
 module.exports = Employee
