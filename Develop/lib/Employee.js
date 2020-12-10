@@ -16,7 +16,8 @@ class Employee {
         }
         getrole(){
             
-        }
-    
+        }   
 }
+
+
 module.exports = Employee
