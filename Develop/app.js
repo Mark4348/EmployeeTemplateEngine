@@ -17,24 +17,24 @@ function init(){
     .prompt([
         {
             type: "input",
-            message: "what is employee name",
+            message: "What is the employees name that you want to add?",
             name: "name"
         },
         {
             type: "list",
-            message: "what is your role",
+            message: "what is their role?",
             name: "role",
             choices: role
 
         },
         {
             type: "input",
-            message: "what is your id",
+            message: "what is their id?",
             name: "id"
         },
         {
             type: "input",
-            message: "what is your email id",
+            message: "what is their email address?",
             name: "email"
         },
 
@@ -44,7 +44,7 @@ function init(){
             inquirer.prompt([
                 {
                     type: "input",
-                    message: "what is your Office Number",
+                    message: "What is your office number?",
                     name: "officeNumber"
                 }
             ]).then(function (role) {
@@ -59,7 +59,7 @@ function init(){
             inquirer.prompt([
                 {
                     type: "input",
-                    message: "what is your Github Account",
+                    message: "What is your Github account?",
                     name: "github"
                 }
             ]).then(function (role) {
@@ -74,7 +74,7 @@ function init(){
             inquirer.prompt([
                 {
                     type: "input",
-                    message: "what is your school Name",
+                    message: "What is your Schools name?",
                     name: "school"
                 }
             ]).then(function (role) {
@@ -98,7 +98,7 @@ function repeat() {
 inquirer.prompt([
     {
         type: "list",
-        message: "you want to add another employee details",
+        message: "Do you want to add another employee details?",
         name: "yes",
         choices: ["yes", "No"]
     }
@@ -112,7 +112,7 @@ inquirer.prompt([
             if (err) {
                 console.log(err);
             }
-            console.log("succesfully created")
+            console.log("Succesfully created!")
         })
 
     }
