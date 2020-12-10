@@ -1,0 +1,22 @@
+.jumbotron{
+background-color:#3d3a3a;    
+}
+
+.text-center{
+color:white;
+}
+
+.card-header{
+background-color:#7171a3;
+color:white;
+}
+
+.card{
+margin: 20px;
+}
+
+
+.card-title{
+font-family: Arial, Helvetica, sans-serif ;
+font-size: 25px;
+}

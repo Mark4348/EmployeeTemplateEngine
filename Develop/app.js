@@ -12,7 +12,7 @@ const render = require("./lib/htmlRenderer");
 let employees = [];
 const role = ["Manager", "Engineer", "Intern"]
 
-function initapp(){
+function init(){
     inquirer
     .prompt([
         {
